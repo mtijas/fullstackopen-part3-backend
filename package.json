@@ -1,0 +1,28 @@
+{
+  "name": "fullstackopen-part3-backend",
+  "version": "0.0.1",
+  "description": "Full Stack Open Part 3 Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtijas/fullstackopen-part3-backend.git"
+  },
+  "author": "Markus Ijäs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtijas/fullstackopen-part3-backend/issues"
+  },
+  "homepage": "https://github.com/mtijas/fullstackopen-part3-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
